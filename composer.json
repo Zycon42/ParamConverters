@@ -1,0 +1,28 @@
+{
+	"name": "zycon42/param-converters",
+	"type": "library",
+	"description": "Presenter parameters converters for Nette framework",
+	"keywords": [],
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Jan Dušek",
+			"email": "jan.dusek90@gmail.com"
+		}
+	],
+	"require": {
+        "php" : ">= 5.4",
+        "nette/application": "~2.2",
+        "kdyby/doctrine" : "~2.1"
+	},
+    "require-dev": {
+        "php": ">= 5.5",
+        "phpunit/phpunit": "4.1.*",
+        "mockery/mockery": "@stable",
+        "jakub-onderka/php-parallel-lint": "~0.7"
+    },
+	"autoload": {
+		"psr-0": { "Zycon42\\ParamConverters\\": "lib/" }
+	}
+}
+

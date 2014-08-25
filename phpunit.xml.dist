@@ -1,0 +1,7 @@
+<phpunit colors="true" boostrap="./tests/boostrap.php">
+    <testsuites>
+        <testsuite name="Zycon42 ParamConverters Test Suite">
+            <directory>./tests/ParamConverters/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
